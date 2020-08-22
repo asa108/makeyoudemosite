@@ -3,7 +3,11 @@
     <!-- <h2>Home page</h2>
     <button @click="toAbout">about ページにいく</button> -->
     <div class="image_container">
-      <img class="home_img" src="./img/top.jpg" alt="top image" />
+      <img
+        class="home_img"
+        src="../../dist/img/top.2f65be07.jpg"
+        alt="top image"
+      />
       <div class="title">MAKE YOU SUMMER SALE</div>
     </div>
     <div class="home">
