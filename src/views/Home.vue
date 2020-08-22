@@ -3,7 +3,7 @@
     <!-- <h2>Home page</h2>
     <button @click="toAbout">about ページにいく</button> -->
     <div class="image_container">
-      <img class="home_img" :src="image_src" alt="top image" />
+      <img class="home_img" src="../assets/top.jpg" alt="top image" />
       <div class="title">MAKE YOU SUMMER SALE</div>
     </div>
     <div class="home">
@@ -18,19 +18,14 @@
 </template>
 
 <script>
-import Item from "../views/Item.vue";
-
 export default {
   methods: {
     toAbout() {
       this.$router.push("/about");
     },
-    components: {
-      Item,
-    },
     data() {
       return {
-        image_src: require("../assets/top.jpg"),
+        image_src: "../assets/top.jpg",
       };
     },
   },
