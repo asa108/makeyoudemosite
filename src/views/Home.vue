@@ -3,7 +3,7 @@
     <!-- <h2>Home page</h2>
     <button @click="toAbout">about ページにいく</button> -->
     <div class="image_container">
-      <img class="home_img" :src="src" alt="top image" />
+      <img class="home_img" :src="image_src" alt="top image" />
       <div class="title">MAKE YOU SUMMER SALE</div>
     </div>
     <div class="home">
@@ -30,7 +30,7 @@ export default {
     },
     data() {
       return {
-        src: "./img/top.jpg",
+        image_src: require("../assets/top.jpg"),
       };
     },
   },
